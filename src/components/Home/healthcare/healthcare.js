@@ -1,154 +1,59 @@
-import React from "react";
-import { useForm, ValidationError } from '@formspree/react';
-function Health() {
-  const [state, handleSubmit] = useForm("xyyovgwq");
-  if (state.succeeded) {
-      return <p>Thanks for contacting!</p>;
-  }
-  return (
-    <div id="rs-contact" class="rs-contact style5 modify1 gray-bg5">
-      <div class="" style={{ width: "90%", margin: "auto" }}>
-        <div
-          class="contact-us"
-          style={{ paddingTop: "80px", paddingBottom: "80px" }}
-        >
-          <div class="row margin-0">
-            <div class="col-lg-8" style={{ marginRight: "-30px" }}>
-              <div class="contact-widget">
-                <div class="sec-title5 pt-5 pb-5">
-                  <span class="sub-title new-title">Contact Us</span>
-                  <h2 class="title title2">Get In Touch</h2>
-                </div>
-                <div id="form-messages"></div>
-                <form id="contact-form"  onSubmit={handleSubmit}>
-                  <fieldset>
-                    <div class="row">
-                      <div class="col-lg-6 mb-3 col-md-6 col-sm-6">
-                        <input
-                          class="from-control"
-                          type="text"
-                          id="name"
-                          name="name"
-                          placeholder="Name"
-                          required=""
-                        
-                        />
-                        
-                      </div>
-                      <div class="col-lg-6 mb-3 col-md-6 col-sm-6">
-                        <input
-                          class="from-control"
-                          type="text"
-                          id="email"
-                          name="email"
-                          placeholder="E-Mail"
-                          required=""
-                        />
-                      </div>
-                      <div class="col-lg-6 mb-3 col-md-6 col-sm-6">
-                        <input
-                          class="from-control"
-                          type="text"
-                          id="phone"
-                          name="phone"
-                          placeholder="Phone Number"
-                          required=""
-                        />
-                      </div>
-                      <div class="col-lg-6 mb-3 col-md-6 col-sm-6">
-                        <input
-                          class="from-control"
-                          type="text"
-                          id="Website"
-                          name="subject"
-                          placeholder="Your Website"
-                          required=""
-                        />
-                      </div>
+import React from 'react';
+import './health.css';
+import about1 from '../../../images/about/solutions/1.jpg'
+import about2 from '../../../images/about/solutions/2.png'
+import about3 from '../../../images/about/solutions/3.png'
 
-                      <div class="col-lg-12 mb-3">
-                        <textarea
-                          class="from-control"
-                          id="message"
-                          name="message"
-                          placeholder="Your message Here"
-                          required=""
-                        ></textarea>
-                      </div>
+function Health() {
+    return (
+        <div id="rs-about" class="rs-about style10 gray-bg5 p-5">
+                <div class="" style={{width: '90%', margin: 'auto'}}>
+                    <div class="row">
+                        <div class="col-lg-6 pr-70 md-pr-15 md-mb-50">
+                            <div class="sec-title4 mb-30">
+                                <span class="sub-title new pb-10">About Us</span>
+                                <h2 class="title pb-20">We are crafting unique IT & Technology Ideas</h2>
+                                <p class="margin-0">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms</p>
+                            </div>
+                            <div id="accordion" class="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseOne">Responsive & Pixel Perfect Design</a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo data communication.</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">Elementor Page Builder Used</a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo data center and analytics.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-content">
+                                <div class="images-part">
+                                    <img src={about1} alt="Images"/>
+                                </div>
+                                <div class="rs-animations">
+                                    <div class="spinner dot">
+                                        <img class="scale" src={about2} alt="Images"/>
+                                    </div>
+                                    <div class="spinner ball">
+                                        <img class="dance2" src={about3} alt="Images"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="btn-part">
-                      <div class="form-group">
-                        <input
-                          class="readon2 submit-btn con-btn"
-                          type="submit"
-                          value="Submit Now"
-                        />
-                      </div>
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
+                </div>
+                
             </div>
-            <div class="col-lg-4 padding-0">
-              <div class="contact-box">
-                <div class="sec-title2 mb-4">
-                  <h2 class="title small white-color">Contact Info</h2>
-                </div>
-                <div class="address-box mb-4 ">
-                  <div class="box-icon">
-                    <i class="fa fa-map-marker"></i>
-                  </div>
-                  <div class="address-text">
-                    <span class="label">Kenya Office</span>
-                    <p class="desc">
-                      Abacus lane baba dogo road go down b1,
-                      <br />
-                     Kenya.
-                    </p>
-                  </div>
-                </div>
-                <div class="address-box mb-4 ">
-                  <div class="box-icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <div class="address-text">
-                    <span class="label">Telephone</span>
-                    <p class="desc">
-                      <a href="1235558888">p: (+254) 724540740</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="address-box mb-4 ">
-                  <div class="box-icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                  <div class="address-text">
-                    <span class="label">Mail Us</span>
-                    <p class="desc">
-                      <a href="#">E: info@mogod.com</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="address-box mb-4">
-                  <div class="box-icon">
-                    <i class="fa fa-clock-o"></i>
-                  </div>
-                  <div class="address-text">
-                    <span class="label">Kenya Office</span>
-                    <p class="desc">
-                      Abacus lane baba dogo road go down b1,
-                      <br />
-                      Nairobi
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    )
 }
 
-export default Health;
+export default Health
