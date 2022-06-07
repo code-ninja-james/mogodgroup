@@ -2,7 +2,7 @@
     padding:10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 14px; /* position: fixed; top: 0 */
 }
 .toolsbar>ul>li>a{
     

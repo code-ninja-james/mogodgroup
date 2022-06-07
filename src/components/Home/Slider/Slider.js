@@ -23,7 +23,7 @@ function Slider() {
                                     <h2 className="text-white" >HEALTH CARE</h2>
                                     <h3 style={{color:'#f79a2a'}}>Medical equipments &</h3>
                                     <h4  style={{color:'#f79a2a'}}>consumable supplies company</h4>
-                                    <Button href="#text-buttons" style={{color:"white"}}>More info...</Button>
+                                    <Button href="/health" style={{color:"white"}}>More info...</Button>
                                 </div>
                             </div>
                             <div className="col-md-6">
@@ -38,7 +38,7 @@ function Slider() {
                                     <h2 className="text-white" style={{ fontWeight: '400' }}>ICT</h2>
                                     <h3 style={{color:'#f79a2a'}}>Systems & applications</h3>
                                     <h4 style={{color:'#f79a2a'}}>development company</h4>
-                                    <Button href="#text-buttons" style={{color:"white"}}>More info...</Button>
+                                    <Button href="/ict" style={{color:"white"}}>More info...</Button>
 
                                 </div>
                             </div>
@@ -55,7 +55,7 @@ function Slider() {
                                     <h2 className="text-white" >GENERAL SUPPLIES</h2>
                                     <h3 style={{color:'#f79a2a'}}>Farm products, stationeries &</h3>
                                     <h4 style={{color:'#f79a2a'}}> electronics company</h4>
-                                    <Button href="#text-buttons" style={{color:"white"}}>More info...</Button>
+                                    <Button href="/supply" style={{color:"white"}}>More info...</Button>
                                 </div>
                             </div>
                             <div className="col-md-6">

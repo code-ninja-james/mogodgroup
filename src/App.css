@@ -7300,15 +7300,15 @@ body .modal-backdrop {
 .rs-about.style10 .accordion .card .card-header {
   padding: 0 !important;
   border: none;
-  background: #fff;
-  padding: 16px 2px 16px 2px !important;
+  
+ 
 }
 .rs-about.style10 .accordion .card .card-header .card-link {
   color: #1273EB;
   font-weight: 700;
 }
 .rs-about.style10 .accordion .card .card-body {
-  background: #f9f9f9;
+ 
   font-weight: 400;
   color: #363636;
   padding: 17px 65px 40px 22px !important;
@@ -9405,7 +9405,6 @@ body .modal-backdrop {
 .rs-faq.inner .accordion .card {
   margin-bottom: 25px;
   border: none;
-  background-color: #ffffff;
   box-shadow: 0 0 22px rgba(0, 0, 0, 0.1);
 }
 .rs-faq.inner .accordion .card:last-child {
@@ -13552,7 +13551,7 @@ body .modal-backdrop {
 .rs-questions.style1 .accordion .card {
   margin-bottom: 15px;
   border: none;
-  background-color: #ffffff;
+  
 }
 .rs-questions.style1 .accordion .card:last-child {
   margin-bottom: 0;
@@ -15669,7 +15668,7 @@ body .modal-backdrop {
   color: #1c1b1b;
 }
 .rs-checkout .coupon-toggle .accordion .card .card-body {
-  border: 1px solid #d3ced2;
+  
   padding: 20px 20px 30px 20px;
   margin-top: 2em;
   text-align: left;

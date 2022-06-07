@@ -12,14 +12,14 @@ const featureData = [
     icon: precise,
     title: "Precise",
     description:
-      "We only quote you for what you need, and make you commit to a package which may or may not include what you precisely need.",
+      "We only quote you for what you need, and may or may not include what you precisely need.",
   },
   {
     id: 2,
     icon: plan,
     title: "Plan & Schedule",
     description:
-      "With every project, we have a project plan and a schedule. This ensures we stay on track and it provides transparency to the customer on where we are in the process.",
+      "With every project, we have a project plan and a schedule.",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const featureData = [
     icon: helpdesk,
     title: "Customer Service",
     description:
-      "We understand issues occur and you shouldndt have to deal with them all alone. Therefore we have a, 24 hours help desk. ",
+      "We  have a, 24 hours help desk. ",
   },
 ];
 
