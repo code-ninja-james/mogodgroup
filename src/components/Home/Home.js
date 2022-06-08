@@ -33,11 +33,19 @@ function Home() {
             <div className="nav-header">
             <Slider></Slider>
         </div>
+        <div>
         <Features></Features>
+        </div>
+        <div>
         <About></About>
+        </div>
+        <div>
         <Services></Services>
+        </div>
+        <div>
         <Projects></Projects>
-       
+        </div>
+        
         <ProjectSummary></ProjectSummary>
         <SkillSet></SkillSet>
         <Team></Team>

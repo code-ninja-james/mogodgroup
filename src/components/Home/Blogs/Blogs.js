@@ -2,12 +2,11 @@ import React from 'react';
 import blog1 from '../../../images/blog/style7/6.jpg'
 import blog2 from '../../../images/blog/style7/2.jpg'
 import blog3 from '../../../images/blog/style7/3.jpg'
-import Navbar from '../Toolsbar/Navbar/Navbar';
-import Footer from '../Footer/Footer';
+
 function Blogs() {
     return (
         <div>
-            <Navbar></Navbar>
+      
         <div id="rs-blog" class="rs-blog style4 pt-100 pb-100 md-pt-70 md-pb-70">
                 <div class="" style={{width: '90%', margin: 'auto'}}>
                     <div class=" y-middle d-flex">
@@ -75,7 +74,7 @@ function Blogs() {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
+           
             </div>
     )
 }
