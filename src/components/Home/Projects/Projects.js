@@ -5,10 +5,14 @@ import banner3 from '../../../images/projects/3.jpg'
 import banner4 from '../../../images/projects/4.jpg'
 import banner5 from '../../../images/projects/5.jpg'
 import banner6 from '../../../images/projects/6.jpg'
+import Footer from '../Footer/Footer';
+import Navbar from '../Toolsbar/Navbar/Navbar';
 import './Projects.css';
 
 function Projects() {
     return (
+        <div>
+           <Navbar></Navbar>
         <div id="rs-portfolio" class=" bg42 pb-5 mb-3">
             <div class="" style={{ width: '90%', margin: 'auto' }}>
                 <div class="sec-title4 text-center p-5">
@@ -69,6 +73,8 @@ function Projects() {
                     </div>
                 </div>
             </div>
+        </div>
+        <Footer></Footer>
         </div>
     )
 }

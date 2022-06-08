@@ -3,12 +3,10 @@ import "./About.css";
 import about1 from "../../../images/about/solutions/1.jpg";
 import about2 from "../../../images/about/solutions/2.png";
 import about3 from "../../../images/about/solutions/3.png";
-import Navbar from "../Toolsbar/Navbar/Navbar";
-import Footer from "../Footer/Footer";
+
 function About() {
   return (
-    <div>
-    <Navbar></Navbar>
+    
     <div id="rs-about" class="rs-about style10 gray-bg5 p-5">
      
       <div class="" style={{ width: "90%", margin: "auto" }}>
@@ -53,8 +51,7 @@ function About() {
         </div>
       </div>
     </div>
-    <Footer></Footer>
-    </div>
+    
   );
 }
 

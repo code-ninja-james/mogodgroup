@@ -3,9 +3,14 @@ import './Team.css';
 import ceo from '../../../images/team/seo/1.jpg'
 import developer from '../../../images/team/seo/2.jpg'
 import marketer from '../../../images/team/seo/3.jpg'
+import Footer from '../Footer/Footer';
+import Navbar from '../Toolsbar/Navbar/Navbar';
 
 function TeamPage() {
     return (
+        <div>
+            <Navbar></Navbar>
+         
         <div id="rs-team" class="rs-team style2 modify1 pt-100 pb-100 md-pt-70 md-pb-70">
             <div class="" style={{width: '90%', margin: 'auto'}}>
                 <div class="sec-title5 text-center mb-50 md-mb-35">
@@ -67,6 +72,8 @@ function TeamPage() {
                     
                 </div>
             </div>
+        </div>
+        <Footer></Footer>
         </div>
     )
 }

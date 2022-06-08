@@ -12,11 +12,11 @@ import Navbar from '../Toolsbar/Navbar/Navbar';
 
 
 
-function ServicesPage() {
+function Services() {
     return (
         <div>
         <div className="service-container">
-            
+            <Navbar></Navbar>
             <div className="text-center pt-5 w-50 m-auto">
              
                 <h2 style={{fontSize:'',color: "#f79a2a"}} >OUR SERVICES</h2>
@@ -82,12 +82,12 @@ function ServicesPage() {
             </div>
            
         </div>
-       
+       <Footer></Footer>
         </div>
       
     )
 }
 
-export default ServicesPage;
+export default Services
  
 

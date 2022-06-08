@@ -2,23 +2,25 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import About from "./components/Home/About/About";
-import Services from "./components/Home/Services/Services";
+import ServicesPage from "./components/Home/Services/ServicesPage";
 import Projects from "./components/Home/Projects/Projects";
-import Team from "./components/Home/Team/Team";
+import TeamPage from "./components/Home/Team/TeamPage";
 import Blogs from "./components/Home/Blogs/Blogs";
 import Contact from "./components/Home/Contact/Contact";
 import Ict from "./components/Home/Ict/ict";
 import Health from "./components/Home/healthcare/healthcare";
 import Supply from "./components/Home/general-supply/supply";
+import AboutPage from "./components/Home/About/AboutPage";
+
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/about"  element={<About />} />
-        <Route path="/services"  element={<Services />} />
+        <Route path="/about"  element={<AboutPage/>} />
+        <Route path="/services"  element={<ServicesPage/>} />
         <Route path="/projects"  element={<Projects />} />
-        <Route path="/team"  element={<Team />} />
+        <Route path="/team"  element={<TeamPage/>} />
         <Route path="/blog"  element={<Blogs />} />
         <Route path="/contact"  element={<Contact />} />
          <Route path="/supply"  element={<Supply />} />

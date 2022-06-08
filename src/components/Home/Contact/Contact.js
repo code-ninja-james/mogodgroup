@@ -1,11 +1,16 @@
 import React from "react";
 import { useForm, ValidationError } from '@formspree/react';
+import Navbar from "../Toolsbar/Navbar/Navbar";
+import Footer from "../Footer/Footer";
 function Contact() {
+
   const [state, handleSubmit] = useForm("xyyovgwq");
   if (state.succeeded) {
       return <p>Thanks for contacting!</p>;
   }
   return (
+    <div >
+      <Navbar></Navbar>
     <div id="rs-contact" class="rs-contact style5 modify1 gray-bg5">
       <div class="" style={{ width: "90%", margin: "auto" }}>
         <div
@@ -147,6 +152,8 @@ function Contact() {
           </div>
         </div>
       </div>
+    </div>
+    <Footer></Footer>
     </div>
   );
 }
