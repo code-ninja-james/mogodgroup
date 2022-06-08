@@ -6,14 +6,17 @@ import ict from "../../../images/whychooseus/icon/ict.png";
 import supply from "../../../images/whychooseus/icon/process.png";
 import access from "../../../images/whychooseus/icon/access.png";
 import upcoming from "../../../images/whychooseus/icon/upcoming.png";
-
+import Footer from '../Footer/Footer';
 import Service from './Service';
+import Navbar from '../Toolsbar/Navbar/Navbar';
 
 
 
 function Services() {
     return (
+        <div>
         <div className="service-container">
+            <Navbar></Navbar>
             <div className="text-center pt-5 w-50 m-auto">
              
                 <h2 style={{fontSize:'',color: "#f79a2a"}} >OUR SERVICES</h2>
@@ -77,7 +80,11 @@ function Services() {
             </div>
         </div>
             </div>
+           
         </div>
+       <Footer></Footer>
+        </div>
+      
     )
 }
 

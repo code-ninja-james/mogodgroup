@@ -6,7 +6,7 @@ import parking from "../../../images/parking.jpg";
 
 import Navbar from '../Toolsbar/Navbar/Navbar';
 import Toolsbar from '../Toolsbar/Toolsbar';
-
+import Footer from "../Footer/Footer";
 function Ict() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -291,7 +291,7 @@ function Ict() {
           </div>
         </div>
       </div>
-   
+   <Footer/>
     </div>
    
     </div>

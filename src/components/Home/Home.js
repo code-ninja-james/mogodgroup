@@ -27,9 +27,9 @@ function Home() {
 //     window.addEventListener('scoll',changeBackground)
     return (
         <div>
-          
-             
-            <Navbar ></Navbar>
+          <div style={{marginBottom:50}}>
+             <Navbar ></Navbar>
+        </div>
             <div className="nav-header">
             <Slider></Slider>
         </div>
