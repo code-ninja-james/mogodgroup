@@ -27,10 +27,10 @@ function Home() {
 //     window.addEventListener('scoll',changeBackground)
     return (
         <div>
-            <div className="nav-header">
+          
              
             <Navbar ></Navbar>
-           
+            <div className="nav-header">
             <Slider></Slider>
         </div>
         <Features></Features>

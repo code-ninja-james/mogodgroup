@@ -30,7 +30,7 @@ function Navbar() {
         </div>
         <div className="Navbar">
             
-            <div class="row d-flex align-items-center" style={{ margin: 'auto' }}>
+            <div class="row d-flex align-items-center" style={{ margin: 'auto'}}>
                 <div className="col-md-4 toolsbar">
                     <img src={logo} alt="logo" />
                 </div>

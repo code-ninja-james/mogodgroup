@@ -15,7 +15,7 @@ function Health() {
         
      </div>
         </div>
-        <div id="rs-about" class="rs-about style10 gray-bg5 p-5">
+        <div id="rs-about" class="rs-about style10 gray-bg5 p-5" >
                 <div class="" style={{width: '90%', margin: 'auto'}}>
                     <div class="row">
                         <div class="col-lg-6 pr-70 md-pr-15 md-mb-50">

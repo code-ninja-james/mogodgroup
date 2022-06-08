@@ -1,20 +1,21 @@
 .slider-container{
     width:90%;
-    margin: auto;
+    /* margin: auto; */
     padding-top:30px;
     padding-bottom:50px;
-  
+   
    
 }
 .slide-part{
     display:flex;
     align-items:center;
    
+    
 }
 
 .slide-image{
     width:85%;
-    
+  
 }
 
 @media only screen and (max-width: 1200px) {
@@ -57,6 +58,12 @@
       }
       .slide-image{
         display:none;
+    }
+
+    .slide-des h2{
+      font-size:30px;
+      margin-top:50px;
+      
     }
     
     

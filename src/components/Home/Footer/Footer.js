@@ -50,7 +50,7 @@ function Footer() {
                                 <li>
                                     <i class="flaticon-email"></i>
                                     <div class="desc">
-                                        <a href="mailto:support@rstheme.com">info@mogod.com</a>
+                                        <a href="mailto:support@rstheme.com">info@mogodgroup.com</a>
                                     </div>
                                 </li>
                                 <li>

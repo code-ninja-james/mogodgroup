@@ -29,7 +29,7 @@
 }
 .stickyheader{
   position: fixed;
-  height: 15%;
+  height: 12%;
   width: 100%;
   top: 0;
   left: 0;
@@ -37,6 +37,7 @@
   transition: .3s ease-in;
   overflow: hidden;
   background-color:#12ace9;
+ 
 }
 
 

@@ -76,7 +76,7 @@ function Ict() {
                  <div class="col-lg-6">
                      <div class="about-content">
                          <div class="images-part">
-                         <iframe src="https://www.slideshare.net/slideshow/embed_code/key/mzXXmQNxEurr5g?hostedIn=slideshare&page=upload"   width="476"
+                         <iframe src="https://www.slideshare.net/slideshow/embed_code/key/ALMQWKMVUMcG6f?hostedIn=slideshare&page=upload"   width="476"
                       height="430"
                       frameborder="0"
                       marginwidth="0"
