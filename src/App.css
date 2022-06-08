@@ -10932,7 +10932,7 @@ body .modal-backdrop {
 .rs-testimonial.style10 .slick-part .slider .images-slide-single {
   text-align: center;
 }
-.rs-testimonial.style10 .slick-part .slider .images-slide-single .single-testimonial .content-part .quote {
+.rs-testimonial.style10 .slick-part .slider -slide-single .single-testimonial .content-part .quote {
   margin: 0 auto 22px;
 }
 .rs-testimonial.style10 .slick-part .slider .images-slide-single .single-testimonial .content-part p {

@@ -34,7 +34,7 @@ function About() {
           <div class="col-lg-6">
             <div class="about-content">
               <div class="images-part">
-                <img src={about1} alt="Images" />
+                <img src={about1}  alt="Images" />
               </div>
               <div class="rs-animations">
                 <div class="spinner dot">

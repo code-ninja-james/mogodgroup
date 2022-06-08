@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import Navbar from './Toolsbar/Navbar/Navbar'
 import Toolsbar from './Toolsbar/Toolsbar';
 import './Home.css'
@@ -17,11 +17,20 @@ import Projects from './Projects/Projects';
 
 
 function Home() {
+   const [navbar,setNavbar]=useState(false);
+    
+   
+
+//     const changeBackground=()=>{
+// console.log(window.scrollY)
+//     };
+//     window.addEventListener('scoll',changeBackground)
     return (
         <div>
             <div className="nav-header">
-            <Toolsbar></Toolsbar>
+             
             <Navbar ></Navbar>
+           
             <Slider></Slider>
         </div>
         <Features></Features>
@@ -37,6 +46,6 @@ function Home() {
         <Footer></Footer>
         </div>
     )
-}
-
+    
+    }
 export default Home

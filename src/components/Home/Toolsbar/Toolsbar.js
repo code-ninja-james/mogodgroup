@@ -7,7 +7,7 @@ function Toolsbar() {
             <div class="row inner-tools-area" >
                 <div className="col-md-2 toolsbar">
                     <ul className="text-left" style={{textAlign:'center'}}>
-                        <li><a href="mailto:info@yourwebsite.com">info@mogod.com</a></li>
+                        <li><a href="mailto:info@yourwebsite.com">info@mogodgroup.com</a></li>
                     </ul>
                 </div>
                 <div className="col-md-8 toolsbar" style={{borderLeft:'1px solid grey', borderRight:'1px solid grey'}}>

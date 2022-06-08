@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 
 function Slider() {
     return (
-        <div className='slider-container'>
+        <div className='slider-container' >
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

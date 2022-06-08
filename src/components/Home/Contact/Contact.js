@@ -125,7 +125,7 @@ function Contact() {
                   <div class="address-text">
                     <span class="label">Mail Us</span>
                     <p class="desc">
-                      <a href="#">E: info@mogod.com</a>
+                      <a href="#">E: info@mogodgroup.com</a>
                     </p>
                   </div>
                 </div>
