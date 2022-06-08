@@ -15,7 +15,7 @@ import Navbar from '../Toolsbar/Navbar/Navbar';
 function ServicesPage() {
     return (
         <div>
-        <div className="service-container">
+        <div className="service-container" style={{marginTop:100}}>
             
             <div className="text-center pt-5 w-50 m-auto">
              

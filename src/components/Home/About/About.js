@@ -6,7 +6,7 @@ import about3 from "../../../images/about/solutions/3.png";
 
 function About() {
   return (
-    
+    <div >
     <div id="rs-about" class="rs-about style10 gray-bg5 p-5">
      
       <div class="" style={{ width: "90%", margin: "auto" }}>
@@ -51,7 +51,7 @@ function About() {
         </div>
       </div>
     </div>
-    
+    </div>
   );
 }
 
