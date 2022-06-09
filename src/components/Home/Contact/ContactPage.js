@@ -8,7 +8,7 @@ function ContactPage() {
       return <p>Thanks for contacting!</p>;
   }
   return (
-      <div>
+      <div style={{marginTop:100}}>
           <Navbar></Navbar>
     <div id="rs-contact" class="rs-contact style5 modify1 gray-bg5">
       <div class="" style={{ width: "90%", margin: "auto" }}>

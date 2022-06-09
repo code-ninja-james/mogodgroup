@@ -12,6 +12,7 @@ import Health from "./components/Home/healthcare/healthcare";
 import Supply from "./components/Home/general-supply/supply";
 import AboutPage from "./components/Home/About/AboutPage";
 import BlogPage from "./components/Home/Blogs/BlogPage";
+import ProjectsPage from "./components/Home/Projects/ProjectsPage";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/about"  element={<AboutPage/>} />
         <Route path="/services"  element={<ServicesPage/>} />
-        <Route path="/projects"  element={<Projects />} />
+        <Route path="/projects"  element={<ProjectsPage />} />
         <Route path="/team"  element={<TeamPage/>} />
         <Route path="/blog"  element={<BlogPage />} />
         <Route path="/contact"  element={<ContactPage />} />

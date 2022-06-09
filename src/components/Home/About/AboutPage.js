@@ -8,8 +8,9 @@ import Footer from "../Footer/Footer";
 function AboutPage() {
     
   return (
-    <div>
+    <div style={{marginTop:120}}>
     <Navbar></Navbar>
+    <div>
     <div id="rs-about" class="rs-about style10 gray-bg5 p-5">
      
       <div class="" style={{ width: "90%", margin: "auto" }}>
@@ -55,6 +56,7 @@ function AboutPage() {
       </div>
     </div>
     <Footer></Footer>
+    </div>
     </div>
   );
 }
