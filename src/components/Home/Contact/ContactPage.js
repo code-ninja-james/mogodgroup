@@ -96,7 +96,7 @@ function ContactPage() {
             <div class="col-lg-4 padding-0">
               <div class="contact-box">
                 <div class="sec-title2 mb-4">
-                  <h2 class="title small white-color">Contact Info</h2>
+                  <h2 class="title small white-color"  style={{fontFamily:'Bauhaus'}}>Contact Info</h2>
                 </div>
                 <div class="address-box mb-4 ">
                   <div class="box-icon">

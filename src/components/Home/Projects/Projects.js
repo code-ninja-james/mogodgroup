@@ -18,7 +18,7 @@ function Projects() {
             <div class="" style={{ width: '90%', margin: 'auto' }}>
                 <div class="sec-title4 text-center p-5">
                     <span class="sub-title white-color pb-15">Projects</span>
-                    <h2 class="title white-color">Recent Portfolios</h2>
+                    <h2 class="title white-color" style={{fontFamily:'Bauhaus'}}>Recent Portfolios</h2>
                 </div>
                 <div class="slider-part">
                     <div class="row">

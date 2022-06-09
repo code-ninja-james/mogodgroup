@@ -21,10 +21,10 @@ function Ict() {
   const goToNextPage = () =>
     setPageNumber(pageNumber + 1 >= numPages ? numPages : pageNumber + 1);
   return (
-    <div style={{height :"100%"}}>
+    <div style={{height :"100%",marginTop:110}}>
     <div>
         <div className="nav-header">
-     <Toolsbar></Toolsbar>
+   
      <Navbar ></Navbar>
     
  </div>
@@ -35,7 +35,7 @@ function Ict() {
         <div class="row">
           <div class="pr-70 md-pr-15 md-mb-50">
             <div class="sec-title4 mb-30">
-              <h1 class="new pb-10" style={{ color: "#f79a2a" }}>
+              <h1 class="new pb-10" style={{ color: "#f79a2a" ,fontFamily:'Bauhaus'}}>
                 ICT
               </h1>
              
@@ -48,7 +48,7 @@ function Ict() {
                       class="card-link"
                       data-toggle="collapse"
                       href="#collapseOne"
-                      style={{ color: "#12ace9" }}
+                      style={{ color: "#12ace9" ,fontFamily:'Bauhaus'}}
                     >
                       Systems and Applications
                     </a>
@@ -108,7 +108,7 @@ function Ict() {
                       class="collapsed card-link"
                       data-toggle="collapse"
                       href="#collapseTwo"
-                      style={{ color: "#12ace9" }}
+                      style={{ color: "#12ace9",fontFamily:'Bauhaus' }}
                     >
                       Hotel Management System
                     </a>
@@ -169,7 +169,7 @@ function Ict() {
                       class="card-link"
                       data-toggle="collapse"
                       href="#collapseThree"
-                      style={{ color: "#12ace9" }}
+                      style={{ color: "#12ace9" ,fontFamily:'Bauhaus'}}
                     >
                       Parking Management System
                     </a>
@@ -232,7 +232,7 @@ function Ict() {
                       class="card-link"
                       data-toggle="collapse"
                       href="#collapseFour"
-                      style={{ color: "#12ace9" }}
+                      style={{ color: "#12ace9",fontFamily:'Bauhaus' }}
                     >
                       ERP
                     </a>
@@ -291,9 +291,9 @@ function Ict() {
           </div>
         </div>
       </div>
-   <Footer/>
+      <Footer/>
     </div>
-   
+    
     </div>
   );
 }

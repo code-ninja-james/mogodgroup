@@ -11,7 +11,7 @@ function Footer() {
                 <div class="footer-newsletter">
                     <div class="row y-middle">
                         <div class="col-md-6 sm-mb-26">
-                            <h3 class="title white-color mb-0">Newsletter Subscribe</h3>
+                            <h3 class="title white-color mb-0"  style={{fontFamily:'Bauhaus'}}>Newsletter Subscribe</h3>
                         </div>
                         <div class="col-md-6 text-right">
                             <form class="newsletter-form">
@@ -35,7 +35,7 @@ function Footer() {
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 col-sm-12 md-mb-32 footer-widget">
-                            <h4 class="widget-title">Contact Info</h4>
+                            <h4 class="widget-title"  style={{fontFamily:'Bauhaus'}}>Contact Info</h4>
                             <ul class="address-widget pr-40">
                                 <li>
                                     <i class="flaticon-location"></i>
@@ -62,7 +62,7 @@ function Footer() {
                             </ul>
                         </div>
                         <div class="col-lg-4 col-md-12 col-sm-12 footer-widget">
-                            <h4 class="widget-title">Latest Posts</h4>
+                            <h4 class="widget-title"  style={{fontFamily:'Bauhaus'}}>Latest Posts</h4>
                             <div class="footer-post">
                                 <div class="post-wrap mb-15">
                                     <div class="post-img">
@@ -108,7 +108,7 @@ function Footer() {
                     <div class="row y-middle">
                         <div class="col-lg-6 col-md-8 sm-mb-21">
                             <div class="copyright">
-                                <p>© Copyright 2022 Mogod Group. All Rights Reserved.</p>
+                                <p  style={{fontFamily:'Bauhaus'}}>© Copyright 2022 Mogod Group. All Rights Reserved.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-4 text-right sm-text-center">

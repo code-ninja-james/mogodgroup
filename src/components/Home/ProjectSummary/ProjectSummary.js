@@ -5,7 +5,7 @@ function ProjectSummary() {
     return (
         <div className="projectSummary-container">
             <div className="" style={{ width: '90%', margin: 'auto' }}>
-                <h4 className="text-white text-center" style={{ fontWeight: '300', paddingTop: '40px' }}>SOME FUN FACTS ABOUT OUR COMPANY?</h4>
+                <h4 className="text-white text-center" style={{ fontWeight: '300', paddingTop: '40px',fontFamily:'Bauhaus' }}>SOME FUN FACTS ABOUT OUR COMPANY?</h4>
             </div>
             <div className="row p-5">
                 <div className="col-md-4 text-center">

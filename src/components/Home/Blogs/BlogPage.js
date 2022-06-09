@@ -14,7 +14,7 @@ function BlogPage() {
                         <div class="col-md-6 sm-mb-20">
                             <div class="sec-title">
                                 <span class="sub-title primary right-line">LATEST NEWS</span>
-                                <h2 class="title mb-0">Read Latest Updates</h2>
+                                <h2 class="title mb-0" style={{fontFamily:'Bauhaus'}}>Read Latest Updates</h2>
                             </div>
                         </div>
                         <div class="col-md-6">

@@ -21,7 +21,7 @@ function Contact() {
               <div class="contact-widget">
                 <div class="sec-title5 pt-5 pb-5">
                   <span class="sub-title new-title">Contact Us</span>
-                  <h2 class="title title2">Get In Touch</h2>
+                  <h2 class="title title2" style={{ fontFamily:'Bauhaus'}}>Get In Touch</h2>
                 </div>
                 <div id="form-messages"></div>
                 <form id="contact-form"  onSubmit={handleSubmit}>
@@ -96,7 +96,7 @@ function Contact() {
             <div class="col-lg-4 padding-0">
               <div class="contact-box">
                 <div class="sec-title2 mb-4">
-                  <h2 class="title small white-color">Contact Info</h2>
+                  <h2 class="title small white-color"  style={{fontFamily:'Bauhaus'}}>Contact Info</h2>
                 </div>
                 <div class="address-box mb-4 ">
                   <div class="box-icon">

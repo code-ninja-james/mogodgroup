@@ -11,7 +11,7 @@ function SkillSet() {
                                <div class="skillsets-part">
                                    <div class="sec-title4 mb-40">
                                        <span class="sub-title white-color pb-15">Skillsets</span>
-                                       <h2 class="title white-color">We have expert team with different skillsets</h2>
+                                       <h2 class="title white-color"  style={{fontFamily:'Bauhaus'}}>We have expert team with different skillsets</h2>
                                    </div>
                                    <div class="cl-skill-bar style2 solutions mt-5 mb-5">
                                        <span class="skillbar-title">Software Development</span>

@@ -15,7 +15,7 @@ function TeamPage() {
             <div class="" style={{width: '90%', margin: 'auto'}}>
                 <div class="sec-title5 text-center mb-50 md-mb-35">
                     <span class="sub-title new-title pb-7">Expert People</span>
-                    <h2 class="title title2 pb-5">Our Team Members</h2>
+                    <h2 class="title title2 pb-5"  style={{fontFamily:'Bauhaus'}}>Our Team Members</h2>
                 </div>
                 <div className=" row d-flex" >
                     <div class="col-md-4 team-item-wrap p-5">

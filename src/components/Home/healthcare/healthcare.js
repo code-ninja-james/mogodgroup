@@ -7,10 +7,10 @@ import Toolsbar from '../Toolsbar/Toolsbar';
 import Navbar from '../Toolsbar/Navbar/Navbar';
 function Health() {
     return (
-        <div>
+        <div  style={{marginTop:110}}>
         <div>
             <div className="nav-header">
-         <Toolsbar></Toolsbar>
+        
          <Navbar ></Navbar>
         
      </div>
@@ -20,7 +20,7 @@ function Health() {
                     <div class="row">
                         <div class="col-lg-6 pr-70 md-pr-15 md-mb-50">
                             <div class="sec-title4 mb-30">
-                            <h1 class="new pb-10" style={{ color: "#f79a2a" }}>Health Care</h1>
+                            <h1 class="new pb-10" style={{ color: "#f79a2a" ,fontFamily:'Bauhaus' }}>Health Care</h1>
                             <div>
                             Our Company prides itself as a medical sales, distribution and service orientated company that was established back in 2014.
                                 </div>

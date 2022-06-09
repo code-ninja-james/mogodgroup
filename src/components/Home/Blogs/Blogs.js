@@ -21,7 +21,7 @@ function Blogs() {
                         <div class="col-md-6 sm-mb-20">
                             <div class="sec-title">
                                 <span class="sub-title primary right-line">Our partners</span>
-                                <h2 class="title mb-0">We develop for tech-preneurs</h2>
+                                <h2 class="title mb-0"  style={{fontFamily:'Bauhaus'}}>We develop for tech-preneurs</h2>
                             </div>
                         </div>
                         <div class="col-md-6">
