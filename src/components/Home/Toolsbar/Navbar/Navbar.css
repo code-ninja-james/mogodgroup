@@ -33,7 +33,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 500;
+  z-index: 115;
   transition: .3s ease-in;
   overflow: hidden;
   background-color:#12ace9;

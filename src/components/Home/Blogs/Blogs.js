@@ -4,7 +4,15 @@ import blog2 from '../../../images/blog/style7/2.jpg'
 import blog3 from '../../../images/blog/style7/3.jpg'
 
 function Blogs() {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
     return (
+      
         <div>
       
         <div id="rs-blog" class="rs-blog style4 pt-100 pb-100 md-pt-70 md-pb-70">
@@ -12,8 +20,8 @@ function Blogs() {
                     <div class=" y-middle d-flex">
                         <div class="col-md-6 sm-mb-20">
                             <div class="sec-title">
-                                <span class="sub-title primary right-line">LATEST NEWS</span>
-                                <h2 class="title mb-0">Read Latest Updates</h2>
+                                <span class="sub-title primary right-line">Our partners</span>
+                                <h2 class="title mb-0">We develop for tech-preneurs</h2>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -23,6 +31,7 @@ function Blogs() {
                         </div>
                     </div>
                     <div className="row mt-5 mb-5 d-flex">
+                   
                        <div class="col-md-4 blog-item">
                            <div class="blog-wrap">
                                <div class="img-part">
