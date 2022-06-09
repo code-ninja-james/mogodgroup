@@ -2,6 +2,7 @@ import React from 'react';
 import banner1 from '../../../images/projects/1.jpg'
 import banner2 from '../../../images/projects/2.jpg'
 import banner3 from '../../../images/projects/3.jpg'
+
 import banner4 from '../../../images/projects/4.jpg'
 import banner5 from '../../../images/projects/5.jpg'
 import banner6 from '../../../images/projects/6.jpg'
