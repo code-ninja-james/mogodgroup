@@ -7,10 +7,10 @@ import Navbar from '../Toolsbar/Navbar/Navbar';
 import Toolsbar from '../Toolsbar/Toolsbar';
 function Supply() {
     return (
-        <div>
+        <div style={{marginTop:110}}>
        <div>
            <div className="nav-header">
-        <Toolsbar></Toolsbar>
+       
         <Navbar ></Navbar>
        
     </div>
@@ -22,12 +22,12 @@ function Supply() {
                     <div class="row">
                         <div class="col-lg-6 pr-70 md-pr-15 md-mb-50">
                             <div class="sec-title4 mb-30">
-                            <h1 class="new pb-10" style={{ color: "#f79a2a" }}>
+                            <h1 class="new pb-10" style={{ color: "#f79a2a",fontFamily:'Bauhaus' }}>
                General Supplies
               </h1>
                              
                             
-                               <div>
+                               <div >
                                    Mogod Group also has a subsidiary that is a General Trading company that has vast network of professionals.
                                 </div>
                             </div>

@@ -8,7 +8,7 @@ function Feature({data}) {
                     <img src={data.icon} style={{height:'80px'}} alt="" />
                 </div>
                 <div className="description" >
-                    <h4 style={{color:"#12ace9"}}>{data.title}</h4>
+                    <h4 style={{color:"#12ace9",fontFamily:'Bauhaus'}}>{data.title}</h4>
                     <p>{data.description}</p>
                     <Button href="#text-buttons" style={{color:"white"}}>More info...</Button>
                 </div>

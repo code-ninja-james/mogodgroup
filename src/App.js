@@ -1,4 +1,6 @@
 import "./App.css";
+import "./Fonts/bauhaus-93/Bauhaus93Regular.ttf";
+import "./Fonts/bauhaus-93/Bauhaus.ttf"
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import About from "./components/Home/About/About";

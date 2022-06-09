@@ -20,9 +20,9 @@ function Slider() {
                             <div className="col-md-6 col-sm-12">
                                 <div className="slide-des" style={{ textAlign: 'left', margin: 'auto', paddingLeft: '10%' }}>
     
-                                    <h2 className="text-white" >HEALTH CARE</h2>
-                                    <h3 style={{color:'#f79a2a'}}>Medical equipments &</h3>
-                                    <h4  style={{color:'#f79a2a'}}>consumable supplies company</h4>
+                                    <h2 className="text-white" style={{fontFamily:'Bauhaus'}} >HEALTH CARE</h2>
+                                    <h3 style={{color:'#f79a2a',fontFamily:'Bauhaus'}}>Medical equipments &</h3>
+                                    <h4  style={{color:'#f79a2a',}}>consumable supplies company</h4>
                                     <Button href="/health" style={{color:"white"}}>More info...</Button>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ function Slider() {
                         <div className="row slide-part">
                             <div className="col-md-6 col-sm-12">
                                 <div className="slide-des" style={{ textAlign: 'left', margin: 'auto', paddingLeft: '10%' }}>
-                                    <h2 className="text-white" style={{ fontWeight: '400' }}>ICT</h2>
+                                    <h2 className="text-white" style={{fontFamily:'Bauhaus'}}>ICT</h2>
                                     <h3 style={{color:'#f79a2a'}}>Systems & applications</h3>
                                     <h4 style={{color:'#f79a2a'}}>development company</h4>
                                     <Button href="/ict" style={{color:"white"}}>More info...</Button>
@@ -52,7 +52,7 @@ function Slider() {
                         <div className="row slide-part">
                             <div className="col-md-6 col-sm-12">
                                 <div className="slide-des" style={{ textAlign: 'left', margin: 'auto', paddingLeft: '10%' }}>
-                                    <h2 className="text-white" >GENERAL SUPPLIES</h2>
+                                    <h2 className="text-white" style={{fontFamily:'Bauhaus'}}>GENERAL SUPPLIES</h2>
                                     <h3 style={{color:'#f79a2a'}}>Farm products, stationeries &</h3>
                                     <h4 style={{color:'#f79a2a'}}> electronics company</h4>
                                     <Button href="/supply" style={{color:"white"}}>More info...</Button>

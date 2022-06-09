@@ -20,7 +20,7 @@ function Services() {
            
             <div className="text-center pt-5 w-50 m-auto">
              
-                <h2 style={{fontSize:'',color: "#f79a2a"}} >OUR SERVICES</h2>
+                <h2 style={{fontSize:'',color: "#f79a2a",fontFamily:'Bauhaus'}} >OUR SERVICES</h2>
             </div>
 
             <div className="row service">
@@ -31,7 +31,7 @@ function Services() {
                 </div>
                 <div className="details-part ml-2">
                  
-                    <h4 style={{marginBottom:'5px',color:'#f79a2a'}}>Healthcare</h4>
+                    <h4 style={{marginBottom:'5px',color:'#f79a2a',fontFamily:'Bauhaus'}}>Healthcare</h4>
                     <p>Our Company prides itself as a medical sales, distribution and service orientated company that was established back in 2014.</p>
                     <Button href="/health" style={{color:"#f79a2a"}}>More info...</Button>
                 </div>
@@ -45,7 +45,7 @@ function Services() {
                 </div>
                 <div className="details-part ml-2">
                  
-                    <h4 style={{marginBottom:'5px',color:'#f79a2a'}}>ICT</h4>
+                    <h4 style={{marginBottom:'5px',color:'#f79a2a',fontFamily:'Bauhaus'}}>ICT</h4>
                     <p>We provide you with the best-in-class applications solutions for enterprises across industries.</p>
                     <Button href="/ict" style={{color:"#f79a2a"}}>More info...</Button>
                 </div>
@@ -59,7 +59,7 @@ function Services() {
                 </div>
                 <div className="details-part ml-2">
                  
-                    <h4 style={{marginBottom:'5px',color:'#f79a2a'}}>General Supplies</h4>
+                    <h4 style={{marginBottom:'5px',color:'#f79a2a',fontFamily:'Bauhaus'}}>General Supplies</h4>
                     <p>Mogod Group also has a subsidiary that is a General Trading company that has vast network of professionals.</p>
                     <Button href="/supply" style={{color:"#f79a2a"}}>More info...</Button>
                 </div>
@@ -74,7 +74,7 @@ function Services() {
                 </div>
                 <div className="details-part ml-2">
                  
-                    <h4 style={{marginBottom:'5px',color:'#f79a2a'}}>Upcoming Projects</h4>
+                    <h4 style={{marginBottom:'5px',color:'#f79a2a',fontFamily:'Bauhaus'}}>Upcoming Projects</h4>
                     <p>We will deliver on your upcoming projects</p>
                     <Button href="#" style={{color:"#f79a2a"}}>More info...</Button>
                 </div>

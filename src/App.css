@@ -2,6 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 
+@font-face {
+  font-family: "Bauhaus93Regular";   /*Can be any text*/
+  src: local("Bauhaus93Regular"),
+    url("./Fonts/bauhaus-93/Bauhaus93Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bauhaus";   /*Can be any text*/
+  src: local("Bauhaus"),
+    url("./Fonts/bauhaus-93/Bauhaus.ttf") format("truetype");
+}
+
+
 html,
 body {
   font-size: 16px;

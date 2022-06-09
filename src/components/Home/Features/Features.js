@@ -41,7 +41,7 @@ function Features() {
   return (
     <div className="features-container   m-auto">
       <div className="text-center pt-5">
-        <h2 style={{  marginBottom: "10px" ,color:'#f79a2a'}}>
+        <h2 style={{  marginBottom: "10px" ,color:'#f79a2a',fontFamily:'Bauhaus'}} >
           WHY CHOOSE US
         </h2>
       
@@ -56,7 +56,7 @@ function Features() {
       <div className="text-center mt-5">
         <p style={{ fontWeight: "600" }}>
           Increase your business success with technology.{" "}
-          <a href="/contact">Let’s get started</a>
+          <a href="/contact" >Let’s get started</a>
         </p>
       </div>
     </div>

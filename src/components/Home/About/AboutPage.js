@@ -17,7 +17,7 @@ function AboutPage() {
         <div class="row">
           <div class="col-lg-6 pr-70 md-pr-15 md-mb-50">
             <div class="sec-title4 mb-30">
-              <h1 style={{ color: "#f79a2a" }}>About Us</h1>
+              <h1 style={{ color: "#f79a2a" ,fontFamily:'Bauhaus'}}>About Us</h1>
 
               <p class="margin-0">
                 Mogod Group is a diverse group of companies with subsudiaries in
