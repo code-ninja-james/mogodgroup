@@ -6,7 +6,7 @@ import Navbar from '../Toolsbar/Navbar/Navbar';
 import Footer from '../Footer/Footer';
 function BlogPage() {
     return (
-        <div>
+        <div style={{marginTop:150}}>
         <Navbar></Navbar>
         <div id="rs-blog" class="rs-blog style4 pt-100 pb-100 md-pt-70 md-pb-70">
                 <div class="" style={{width: '90%', margin: 'auto'}}>

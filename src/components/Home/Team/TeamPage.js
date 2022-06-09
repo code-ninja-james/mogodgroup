@@ -8,7 +8,7 @@ import Navbar from '../Toolsbar/Navbar/Navbar';
 
 function TeamPage() {
     return (
-        <div>
+        <div style={{marginTop:150}}>
             <Navbar></Navbar>
          
         <div id="rs-team" class="rs-team style2 modify1 pt-100 pb-100 md-pt-70 md-pb-70">
