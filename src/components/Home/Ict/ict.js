@@ -35,7 +35,7 @@ function Ict() {
         <div class="row">
           <div class="pr-70 md-pr-15 md-mb-50">
             <div class="sec-title4 mb-30">
-              <h1 class="new pb-10" style={{ color: "#f79a2a" ,fontFamily:'Bauhaus'}}>
+              <h1 class="new pb-10" style={{ color: "#f79a2a" ,fontSize:20}}>
                 ICT
               </h1>
              
@@ -43,16 +43,16 @@ function Ict() {
             <div id="accordion" class="accordion">
               <div class="card">
                 <div class="card-header">
-                  <h2>
+                  <div>
                     <a
                       class="card-link"
                       data-toggle="collapse"
                       href="#collapseOne"
-                      style={{ color: "#12ace9" ,fontFamily:'Bauhaus'}}
+                      style={{ color: "#12ace9" ,fontSize:20}}
                     >
                       Systems and Applications
                     </a>
-                  </h2>
+                  </div>
                 </div>
                 <div
                   id="collapseOne"
@@ -103,16 +103,16 @@ function Ict() {
               </div>
               <div class="card">
                 <div class="card-header">
-                  <h2>
+                  <div>
                     <a
                       class="collapsed card-link"
                       data-toggle="collapse"
                       href="#collapseTwo"
-                      style={{ color: "#12ace9",fontFamily:'Bauhaus' }}
+                      style={{ color: "#12ace9",fontSize:20 }}
                     >
                       Hotel Management System
                     </a>
-                  </h2>
+                  </div>
                 </div>
                 <div id="collapseTwo" class="collapse" data-parent="#accordion">
                 
@@ -164,16 +164,16 @@ function Ict() {
 
               <div class="card">
                 <div class="card-header">
-                  <h2>
+                  <div>
                     <a
                       class="card-link"
                       data-toggle="collapse"
                       href="#collapseThree"
-                      style={{ color: "#12ace9" ,fontFamily:'Bauhaus'}}
+                      style={{ color: "#12ace9" ,fontSize:20}}
                     >
                       Parking Management System
                     </a>
-                  </h2>
+                  </div>
                 </div>
                 <div
                   id="collapseThree"
@@ -227,16 +227,16 @@ function Ict() {
 
               <div class="card">
                 <div class="card-header">
-                  <h2>
+                  <div>
                     <a
                       class="card-link"
                       data-toggle="collapse"
                       href="#collapseFour"
-                      style={{ color: "#12ace9",fontFamily:'Bauhaus' }}
+                      style={{ color: "#12ace9",fontSize:20 }}
                     >
-                      ERP
+                      Enterprise Resource Planning
                     </a>
-                  </h2>
+                  </div>
                 </div>
                 <div
                   id="collapseFour"

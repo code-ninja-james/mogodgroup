@@ -17,7 +17,7 @@ function Health() {
         </div>
         <div id="rs-about" class="rs-about style10 gray-bg5 p-5" >
                 <div class="" style={{width: '90%', margin: 'auto'}}>
-                    <div class="row">
+                    <div class="row ">
                         <div class="col-lg-6 pr-70 md-pr-15 md-mb-50">
                             <div class="sec-title4 mb-30">
                             <h1 class="new pb-10" style={{ color: "#f79a2a" ,fontFamily:'Bauhaus' }}>Health Care</h1>

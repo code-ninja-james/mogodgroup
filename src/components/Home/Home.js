@@ -50,7 +50,7 @@ function Home() {
         <SkillSet></SkillSet>
         <Team></Team>
         <Contact></Contact>
-        <Blogs></Blogs>
+        
         <Footer></Footer>
         
         </div>
