@@ -52,6 +52,7 @@ function Home() {
         <Contact></Contact>
         <Blogs></Blogs>
         <Footer></Footer>
+        
         </div>
     )
     

@@ -18,9 +18,7 @@ function BlogPage() {
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="btn-part text-right sm-text-left">
-                                <a class="readon2 submit-btn con-btn" href="blog-single.html">View Updates</a>
-                            </div>
+                           
                         </div>
                     </div>
                     <div className="row mt-5 mb-5 d-flex">

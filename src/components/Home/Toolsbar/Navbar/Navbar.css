@@ -1,88 +1,113 @@
-.Navbar{
-    width:90%;
-    margin:auto;
-  padding: 30px 0px ;
-    /* position: fixed; top: 0 */
-   
-}
-.navbar-list>ul>li>a{
-    color:#ffffff;
-    font-size: 17px;
-}
-.navbar-list>ul>li>a:hover{
-    color:#F67D31;
-}
-.toolsbar>ul>li{
-  padding:10px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14px; /* position: fixed; top: 0 */
-}
-.toolsbar>ul>li>a{
-  
-  color:white;
+.Header {
+  position: fixed;
+  top: 0; /* Stick it to the top */
+  max-height: 70px;
+  width: 100vw;
+
+  display: grid;
+  grid-template-areas: "logo nav";
+z-index: 120;
+  /* Cosmetics */
+  background-color:#12ace9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.inner-tools-area{
-  width: 90%;
-  margin:auto;
+.Logo {
+  grid-area: logo;
+  height: 70px;
 }
-.stickyheader{
-  position: fixed;
-  height: 12%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 115;
-  transition: .3s ease-in;
-  overflow: hidden;
-  background-color:#12ace9;
+
+.Nav {
+  display: grid;
+  grid-area: nav;
+  grid-template-columns: repeat(7, auto);
+  align-items: center;
+  justify-items: center;
+
+}
+.Nav a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.Nav a:hover {
+  transform: scale(1.1);
  
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1200px) {
-  .toolbar-area {
-    display:none;
-  }
-
-
+.Nav button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  background-color: rgba(255, 0, 0, 0.5);
+  box-shadow: 0px 5px 0px 0px rgba(255, 0, 0, 0.25);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 70ms;
 }
 
+.Nav button:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2px 0px 0px rgba(255, 0, 0, 0.25);
+}
 
-@media only screen and (max-width: 600px) {
-    .navbar-list{
-      display:none;
+.Burger {
+  display: none;
+  grid-area: burger;
+  margin: 0 20px 0 0;
+  padding: 0;
+  justify-self: end;
+  font-size: 40px;
+  border: none;
+  background: none;
+  outline: none;
+  transition: 0.1s;
+}
+.Burger:active {
+  transform: scale(1.2);
+}
 
-      
-    }
-
-   
+@media (max-width: 700px) {
+  .Header {
+    grid-template-areas: "logo burger" "nav nav";
   }
-@media only screen and (max-width: 890px) {
-    .dots{
-        display:none;
-      }
-      .stickyheader{
-        height: 8%;
-      }
+  .Nav {
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: none;
+    grid-row-gap: 20px;
+
+    padding: 30px 0 30px;
+    background: #12ace9;
+    box-shadow: 0 4px 8px 0 #7cc8f5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
+  .Burger {
+    display: inline;
+  }
+}
+
+.NavAnimation-enter {
+  opacity: 0;
+  transform: scale(0.5);
+}
+.NavAnimation-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 350ms, transform 350ms;
+}
+.NavAnimation-exit {
+  opacity: 1;
+}
+.NavAnimation-exit-active {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 350ms, transform 350ms;
+}
